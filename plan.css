@@ -1,0 +1,226 @@
+body{
+    background-color: white;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.packs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+  }
+h3 {
+    font-size: 24px;
+    background: linear-gradient(
+        330deg
+        ,#ff9000 0,red 50%,#0a00b2 100%);
+            background: -moz-linear-gradient(330deg,#ff9000 0,red 50%,#0a00b2 100%);
+            background: -webkit-linear-gradient(
+        330deg
+        ,#ff9000 0,red 50%,#0a00b2 100%);
+            background-image: -ms-linear-gradient(330deg,#ff9000 0,red 50%,#0a00b2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            display: inline-block;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-fill-color: transparent;
+  }
+
+  ul.packbenifits{
+      list-style: none;
+      padding: 0px;
+  }
+
+  ul.packbenifits li:before {
+    content: '✓';
+    margin: 10px;
+  }
+
+
+
+
+
+  .planchoose0{
+      width: 100%;
+      border-radius: 24px;
+      font-weight: bold;
+      font-size: 20px;
+      font-family: Cambria;
+      background-color: rgba(255, 255, 255, 0.425);
+      color: rgb(54, 0, 105);
+      content: "TRY FREE TRIAL";
+
+      
+  }
+  .planchoose1{
+    width: 100%;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria;
+    background-color: rgba(255, 255, 255, 0.425);
+    color: rgb(54, 0, 105);
+    content: "TRY FREE TRIAL";
+
+    
+}
+
+  .planchoose0:hover{
+    width: 100%;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria;
+    background-color: rgb(54, 0, 105,0.5);
+    color: white;
+  }
+  .planchoose1:hover{
+    width: 100%;
+    border-radius: 24px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria;
+    background-color: rgb(54, 0, 105,0.5);
+    color: white;
+  }
+
+.planchoose1:hover::before{
+  background: linear-gradient(
+        330deg
+        ,#ff9000 0,red 50%,#0a00b2 100%);
+            background: -moz-linear-gradient(330deg,#ff9000 0,red 50%,#0a00b2 100%);
+            background: -webkit-linear-gradient(
+        330deg
+        ,#ff9000 0,red 50%,#0a00b2 100%);
+            background-image: -ms-linear-gradient(330deg,#ff9000 0,red 50%,#0a00b2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            display: inline-block;
+            -webkit-text-fill-color: transparent;
+content: "try 7 day's free trial";
+  
+}
+.planchoose1:hover span{
+  display: none; 
+}
+.planchoose0:hover::before{
+  background: linear-gradient(
+        330deg
+        ,#ff9000 0,red 50%,#0a00b2 100%);
+            background: -moz-linear-gradient(330deg,#ff9000 0,red 50%,#0a00b2 100%);
+            background: -webkit-linear-gradient(
+        330deg
+        ,#ff9000 0,red 50%,#0a00b2 100%);
+            background-image: -ms-linear-gradient(330deg,#ff9000 0,red 50%,#0a00b2 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            display: inline-block;
+            -webkit-text-fill-color: transparent;
+content: "PAY";
+  
+}
+.planchoose0:hover span{
+  display: none; 
+}
+ 
+
+
+
+
+
+.intro-pack:hover {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.425);
+    
+    font-weight: bold;
+    font-family: Cambria;
+    border-radius: 24px;  
+    padding: 20px; 
+   
+
+  }
+
+.intro-pack{
+    font-size: 18px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.315);
+    font-weight: bold;
+    font-family: Cambria;
+    border-radius: 24px;  
+   padding: 20px;    
+}
+
+
+.Base-pack:hover {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.425);
+    
+    font-weight: bold;
+    font-family: Cambria;
+    border-radius: 24px;  
+    padding: 20px; 
+   
+
+  }
+
+.Base-pack{
+    font-size: 18px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.315);
+    font-weight: bold;
+    font-family: Cambria;
+    border-radius: 24px;  
+   padding: 20px;    
+}
+
+.Pro-pack:hover {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.425);
+    
+    font-weight: bold;
+    font-family: Cambria;
+    border-radius: 24px;  
+    padding: 20px; 
+   
+
+  }
+
+.Pro-pack{
+    font-size: 18px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.315);
+    font-weight: bold;
+    font-family: Cambria;
+    border-radius: 24px;  
+   padding: 20px;    
+}
+
+.Enterprise-pack:hover {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255,.425);
+    
+    font-weight: bold;
+    font-family: Cambria;
+    border-radius: 24px;  
+    padding: 20px; 
+   
+
+  }
+
+.Enterprise-pack{
+    font-size: 18px;
+    color: #FFFFFF;
+    background: rgba(0, 0, 0, 0.315);
+    font-weight: bold;
+    font-family: Cambria;
+    border-radius: 24px;  
+   padding: 20px;    
+}
+.price{
+    font-size: 30px;
+}
+
